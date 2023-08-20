@@ -1,0 +1,38 @@
+.Home {
+  min-height: 100%;
+  display: grid;
+  align-items: center;
+
+  .Home__mainTextArea {
+    display: flex;
+    align-items: flex-end;
+    padding: 60px;
+  }
+
+  .Home__mainText {
+    font-size: 60px;
+  }
+
+  .Home__line {
+    margin-left: 20px;
+    width: 300px;
+    height: 1px;
+    background-color: var(--color-text-primary);
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  
+}

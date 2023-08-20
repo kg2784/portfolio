@@ -1,0 +1,20 @@
+@use './reset';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --color-text-primary: #222;
+}
+
+body {
+  color: var(--color-text-primary);
+  font-family: 'Roboto', Arial, Helvetica, "游ゴシック体", 'YuGothic', "游ゴシック", "Yu Gothic", sans-serif;
+  padding: 40px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
