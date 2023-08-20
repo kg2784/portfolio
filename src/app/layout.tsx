@@ -2,6 +2,7 @@ import '~/styles/default.scss'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Navigation } from '~/components/Navigation'
+import { CopyRight } from '~/components/CopyRight'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,9 @@ export default function RootLayout({
         <main>
           {children}
         </main>
+        <footer>
+          <CopyRight />
+        </footer>
       </body>
     </html>
   )
