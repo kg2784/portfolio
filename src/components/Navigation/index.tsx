@@ -30,4 +30,4 @@ const Navigation = ({className}: NavigationProps) => {
   )
 }
 
-export default Navigation
+export { Navigation }
