@@ -1,0 +1,36 @@
+.About {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+
+  .About__historyList {
+    margin-top: 40px;
+  }
+
+  .About__historyItem + .About__historyItem {
+    margin-top: 40px;
+  }
+
+  .About__section {
+    margin-top: 8px;
+  }
+
+  .About__section + .About__section {
+    margin-top: 40px;
+  }
+
+  .About__name {
+    font-weight: normal;
+    font-size: 28px;
+  }
+
+  .About__header {
+    font-weight: normal;
+    font-size: 24px;
+  }
+
+  .About__text {
+    margin-top: 12px;
+  }
+}

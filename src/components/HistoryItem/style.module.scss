@@ -1,0 +1,27 @@
+.HistoryItem {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  column-gap: 40px;
+  align-items: flex-start;
+
+  .HistoryItem__term {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .HistoryItem__start + .HistoryItem__line,
+  .HistoryItem__line + .HistoryItem__end {
+    margin-left: 8px;
+  }
+
+  .HistoryItem__line {
+    width: 16px;
+    height: 1px;
+    background-color: var(--color-text-primary);
+  }
+
+  .HistoryItem__text {
+    margin-top: 12px;
+    font-size: 12px;
+  }
+}
