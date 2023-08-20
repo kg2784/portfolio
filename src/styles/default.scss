@@ -6,12 +6,15 @@
 }
 
 body {
+  margin: 0 auto;
+  width: 1200px;
   color: var(--color-text-primary);
   font-family: 'Roboto', Arial, Helvetica, "游ゴシック体", 'YuGothic', "游ゴシック", "Yu Gothic", sans-serif;
   padding: 40px;
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
+  row-gap: 40px;
 }
 
 a {
