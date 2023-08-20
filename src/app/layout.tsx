@@ -7,8 +7,8 @@ import { CopyRight } from '~/components/CopyRight'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Kie Funahashi',
-  description: 'portfolio site',
+  title: 'k2784',
+  description: `Kie Funahashi's portfolio site.`,
   robots: 'noindex, nofollow'
 }
 
