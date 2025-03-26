@@ -17,7 +17,7 @@ const HistoryItem = ({title, text, skills, start, end, className}: HistoryItemPr
         {start ? (
           <span className={styles.HistoryItem__start}>{start}</span>
         ) : null}
-        <span className={styles.HistoryItem__line} />
+        {start || end ? (<span className={styles.HistoryItem__line} />) : null}
         {end ? (
           <span className={styles.HistoryItem__end}>{end}</span>
         ) : null}

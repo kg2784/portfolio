@@ -3,6 +3,7 @@
   grid-template-columns: 110px 1fr;
   column-gap: 40px;
   align-items: flex-start;
+  white-space: pre-line;
 
   .HistoryItem__term {
     display: inline-flex;
