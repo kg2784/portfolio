@@ -16,6 +16,7 @@ const About = () => {
           <p className={styles.About__text}>HTML / CSS / SCSS</p>
           <p className={styles.About__text}>JavaScript / TypeScript</p>
           <p className={styles.About__text}>React / Next.js / Vue.js</p>
+          <p className={styles.About__text}>Recoil</p>
           <p className={styles.About__text}>Storybook / Webpack</p>
           <p className={styles.About__text}>Jest / React Testing Library</p>
           <p className={styles.About__text}>VSCode / GitHub</p>
@@ -24,9 +25,12 @@ const About = () => {
       </div>
       <div className={styles.About__history}>
         <ul className={styles.About__historyList}>
-          <HistoryItem title="商品詳細フロント開発、共通UIライブラリ開発" skills={['HTML', 'SCSS', 'TypeScript', 'React', 'Next.js', 'Recoil']} start="2023" className={styles.About__historyItem} />
+          <HistoryItem title={`ストア側ツールのフロント開発・サポート、\n共通UIライブラリ開発`} skills={['HTML', 'SCSS', 'TypeScript', 'React', 'Next.js', 'Zustand']} start="2024" end="2025" className={styles.About__historyItem} />
+          <HistoryItem title="ユーザーごとに適切なモジュール群を返却するツールの開発" skills={['TypeScript', 'React', 'Java', 'Spring Boot', 'Gradle']} className={styles.About__historyItem} />
+          <HistoryItem title="商品詳細フロント開発、共通UIライブラリ開発" skills={['HTML', 'SCSS', 'TypeScript', 'React', 'Next.js', 'Recoil']} start="2023" end="2024" className={styles.About__historyItem} />
+          <HistoryItem title="[副業] estieマーケット調査のフロント開発" skills={['HTML', 'CSS', 'TypeScript', 'React', 'Next.js', 'Emotion', 'React Hook Form', 'GraphQL', 'Ruby on Rails']} className={styles.About__historyItem} />
           <HistoryItem title="共通UIライブラリ開発、PayPay日用品ミニアプリ開発" skills={['HTML', 'SCSS', 'TypeScript', 'React', 'Next.js', 'Recoil']} start="2022" end="2023" className={styles.About__historyItem} />
-          <HistoryItem title="Yahoo! ショッピングのカートフロント開発" skills={['HTML', 'SCSS', 'TypeScript', 'React', 'Next.js', 'GraphQL', 'Apollo Client']} start="2021" end="2022" className={styles.About__historyItem} />
+          <HistoryItem title="Yahoo! ショッピングのカートフロント開発" skills={['HTML', 'SCSS', 'TypeScript', 'React', 'Next.js', 'React Hook Form', 'GraphQL', 'Apollo Client']} start="2021" end="2022" className={styles.About__historyItem} />
           <HistoryItem title="PayPayモールのフロントエンド開発" skills={['HTML', 'SCSS', 'JavaScript', 'React', 'Vue.js']}  start="2020" end="2021" className={styles.About__historyItem} />
           <HistoryItem title="ヤフー株式会社 入社" text="主にマークアップ業務を担当" skills={['HTML', 'CSS', 'JavaScript', 'jQuery']} start="2019" className={styles.About__historyItem} />
           <HistoryItem title="名古屋大学大学院 情報学研究科 数理情報学専攻 入学" skills={['数理最適化', 'C++']} start="2017" end="2019" className={styles.About__historyItem} />
